@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl2.css"/>
+    <title>Pomocnik CSS</title>
+</head>
+<body>
+    <div id="box">
+        <div id="banner1" class="banner"><h1>Pomocnik CSS</h1></div>
+
+        <div id="banner2" class="banner">
+
+            <ul>
+                <li><a href="kolor.html">Kolory</a></li>
+                <li><a href="czcionki.html">Czcionki</a></li>
+                <li><a href="style.html">Style CSS</a></li>
+                <li><a href="https://www.w3schools.com/css/" target="_blank">Pomoc</a></li>
+            </ul>
+
+        </div>
+
+        <div id="main">
+            <h2>Podaj składową H koloru w kodzie HSL</h2>
+            <p>0 do 30 czerwienie, do 60 żółcie, do 150 zielenie, do 250 niebieskie, do 360 fiolet i purpura</p>
+            <img src="kolory.jpg" alt="Przestrzeń barw HSL"/>
+
+            <input type="number" min="0" max="360" id="colorValue" step="0.1"/>
+            <input type="button" value="Generuj paletę" onclick="Color()"/>
+
+            <table border="1">
+                <tr><td id="r0d0" colspan="4">k</td></tr>
+                <tr><td id="r1d0">1</td> <td id="r1d1">2</td> <td id="r1d2">3</td> <td id="r1d3">4</td></tr>
+            </table>
+
+        </div>
+        <div id="footer">
+            <p>Autor: 000000000000</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
